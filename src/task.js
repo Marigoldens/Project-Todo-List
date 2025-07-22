@@ -32,6 +32,13 @@ class taskCreate {
 
     changeStatus(){
         this.done = !this.done
+        return this.done
+    }
+    readDone(){
+        return this.done
+    }
+    getPrio(){
+        return this.priority
     }
 }
 

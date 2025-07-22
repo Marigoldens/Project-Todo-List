@@ -2,9 +2,8 @@
 "use strict"
 
 import './styles.css';
-import {addTasklistUI} from './ui-logic/aside';
-import {addTask} from './ui-logic/aside';
-import {makeDefaultTasklist} from './ui-logic/aside';
+import {addTasklistUI, addTask} from './ui-logic/aside'; // Corrected path
+import makeDefaultTasklist from './ui-logic/defaultTaskList'; // Corrected path and singular name
 
 
 

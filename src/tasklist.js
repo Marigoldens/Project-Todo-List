@@ -61,7 +61,9 @@ class tasklist{
     countTasks(){
         return this.tasks.length
     }
-
+    getPrio(){
+        return this.priority
+    }
 
 }
 
