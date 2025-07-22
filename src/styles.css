@@ -57,17 +57,22 @@ main{
         flex: 0 ;
         gap: 5%;
         padding: 3%;
-    }
+    }   
     .taskContainerCard div{
         padding: 3%;
         border: 2px black solid;
         height: 300px;
         width: 225px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .taskContainerCard div button{
         width: 2rem;
         height: 2rem;
+        margin: 20px;
+        background-color: rgb(255, 161, 161);
     }
 
 aside{
