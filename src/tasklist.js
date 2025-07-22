@@ -20,7 +20,7 @@ class tasklist{
         if (typeof description !== "string") {
             throw new Error("Description must be a string");
         }
-        if (typeof dueDate !== "number") {
+        if (typeof dueDate !== "string") {
             throw new Error("dueDate must be a valid date");
         }
         if (typeof priority !== "number" || priority < 1 || priority > 5) {

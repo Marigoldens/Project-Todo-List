@@ -21,7 +21,7 @@ class taskCreate {
         if (toChange === "description" && typeof newValue !== "string") {
             throw new Error("Description must be a string");
         }
-        if (toChange === "dueDate" && (typeof newValue !== "number")) {
+        if (toChange === "dueDate" && (typeof newValue !== "string")) {
             throw new Error("Priority must be a valid date");
         }
         if (toChange === "priority" && (typeof newValue !== "number" || newValue < 1 || newValue > 5)) {

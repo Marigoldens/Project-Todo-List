@@ -2,7 +2,6 @@
 "use strict"
 import tasklist from "./tasklist"
 
-
 class taskListContainer{
     constructor(){
         this.taskLists = []

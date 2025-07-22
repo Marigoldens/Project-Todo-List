@@ -6,9 +6,44 @@
     <title>TASKLIST</title>
 </head>
 <body>
-    <nav id="NAV">TEST</nav>
+    <nav id="NAV">
+        <form action="#">
+            <div class="inputContainerTask">
+                <label for="taskTitle">TITLE</label>
+                <input type="text" id="taskTitle" required>
+            </div>
+            <div class="inputContainerTask">
+                <label for="taskDescription">DESCRIPTION</label>
+                <input type="text" id="taskDescription" placeholder="enter your description">
+            </div>
+            <div class="inputContainerTask">
+                <label for="taskDuedate">DUE DATE</label>
+                <input type="date" id="taskDuedate" required>
+            </div>
+            <div class="inputContainerTask">
+                <label for="taskPriority">PRIORITY</label>
+                <input type="number" id="taskPriority" required>
+            </div>
+            <button type="reset">RESET</button>
+            <button type="submit" id="SubmitTask">SUBMIT</button>
+        </form>        
+    </nav>
     <main id="MAIN">TEST</main>
-    <aside id="ASIDE">TEST</aside>
-    <footer id="FOOTER">TEST</footer>
+    <aside id="ASIDE">
+        <form action="#">
+            <div class="inputContainer">
+                <label for="title">TITLE</label>
+                <input type="text" id="tasklistTitle" required>
+            </div>
+            <div class="inputContainer">
+                <label for="PRIORITY">PRIORITY</label>
+                <input type="number" id="tasklistPriority" placeholder="1-5" required>
+            </div>
+            <button type="reset">RESET</button>
+            <button type="submit" id="submitBtn">SUBMIT</button>
+        </form>
+        <div id="ASIDETASKS"></div>
+    </aside>
+    <footer id="FOOTER"></footer>
 </body>
 </html>
